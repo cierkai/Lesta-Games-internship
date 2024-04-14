@@ -1,5 +1,5 @@
-#include "option 1.hpp"
 #include <iostream>
+#include "option 1.hpp"
 
 int main() {
     List<int> cyclic_buffer;

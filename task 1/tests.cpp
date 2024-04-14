@@ -1,8 +1,8 @@
-#include "is even.hpp"
 #include <iostream>
 #include <random>
 #include <thread>
 #include <chrono>
+#include "is even.hpp"
 
 int main() {
     std::mt19937 gen(757);
