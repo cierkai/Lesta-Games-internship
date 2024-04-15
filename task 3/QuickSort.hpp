@@ -1,3 +1,6 @@
+#ifndef QUICKSORT_HPP_
+#define QUICKSORT_HPP_
+
 #include <iostream>
 #include <random>
 
@@ -20,3 +23,5 @@ inline void QuickSort(int l, int r, int *a, int size_) {
     QuickSort(l, j, a, size_);
     QuickSort(i, r, a, size_);
 }
+
+#endif

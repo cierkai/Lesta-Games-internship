@@ -1,3 +1,6 @@
+#ifndef OPTION_2_HPP_
+#define OPTION_2_HPP_
+
 #include <iostream>
 
 template <typename T>
@@ -93,3 +96,5 @@ public:
         size_ = 0;
     }
 };
+
+#endif
